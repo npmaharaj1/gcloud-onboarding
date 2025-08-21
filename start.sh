@@ -13,6 +13,7 @@ echo "\n\nCompleted Build \n\n"
 # Clone config
 mkdir ~/.config
 cd ~/.config
+rm -rf nvim/
 git clone git@github.com:npmaharaj1/neovim.git nvim
 
 echo "\n\nCompleted Config\n\n"
